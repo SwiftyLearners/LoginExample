@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		0DA393C42A0A546A00586FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA393C32A0A546A00586FDC /* AppDelegate.swift */; };
 		0DA393C62A0A546A00586FDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA393C52A0A546A00586FDC /* SceneDelegate.swift */; };
-		0DA393C82A0A546A00586FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA393C72A0A546A00586FDC /* ViewController.swift */; };
-		0DA393CB2A0A546A00586FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA393C92A0A546A00586FDC /* Main.storyboard */; };
+		0DA393C82A0A546A00586FDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA393C72A0A546A00586FDC /* LoginViewController.swift */; };
 		0DA393CD2A0A546C00586FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA393CC2A0A546C00586FDC /* Assets.xcassets */; };
 		0DA393D02A0A546C00586FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA393CE2A0A546C00586FDC /* LaunchScreen.storyboard */; };
+		0DFEFA822A0E1FDE00B9A929 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEFA812A0E1FDE00B9A929 /* TabBarController.swift */; };
+		0DFEFA842A0E620B00B9A929 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEFA832A0E620B00B9A929 /* SettingsViewController.swift */; };
+		0DFEFA882A0E674600B9A929 /* SecondSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEFA872A0E674600B9A929 /* SecondSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DA393C02A0A546A00586FDC /* ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA393C02A0A546A00586FDC /* LoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA393C32A0A546A00586FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA393C52A0A546A00586FDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DA393C72A0A546A00586FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DA393CA2A0A546A00586FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DA393C72A0A546A00586FDC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0DA393CC2A0A546C00586FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA393CF2A0A546C00586FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA393D12A0A546C00586FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFEFA812A0E1FDE00B9A929 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0DFEFA832A0E620B00B9A929 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0DFEFA872A0E674600B9A929 /* SecondSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		0DA393C12A0A546A00586FDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DA393C02A0A546A00586FDC /* ScrollView.app */,
+				0DA393C02A0A546A00586FDC /* LoginExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +62,9 @@
 			children = (
 				0DA393C32A0A546A00586FDC /* AppDelegate.swift */,
 				0DA393C52A0A546A00586FDC /* SceneDelegate.swift */,
-				0DA393C72A0A546A00586FDC /* ViewController.swift */,
-				0DA393C92A0A546A00586FDC /* Main.storyboard */,
+				0DFEFA812A0E1FDE00B9A929 /* TabBarController.swift */,
+				0DFEFA852A0E671900B9A929 /* LoginFlow */,
+				0DFEFA862A0E672600B9A929 /* SettingsFlow */,
 				0DA393CC2A0A546C00586FDC /* Assets.xcassets */,
 				0DA393CE2A0A546C00586FDC /* LaunchScreen.storyboard */,
 				0DA393D12A0A546C00586FDC /* Info.plist */,
@@ -67,12 +72,29 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		0DFEFA852A0E671900B9A929 /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0DA393C72A0A546A00586FDC /* LoginViewController.swift */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		0DFEFA862A0E672600B9A929 /* SettingsFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEFA832A0E620B00B9A929 /* SettingsViewController.swift */,
+				0DFEFA872A0E674600B9A929 /* SecondSettingsViewController.swift */,
+			);
+			path = SettingsFlow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DA393BF2A0A546A00586FDC /* ScrollView */ = {
+		0DA393BF2A0A546A00586FDC /* LoginExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DA393D42A0A546C00586FDC /* Build configuration list for PBXNativeTarget "ScrollView" */;
+			buildConfigurationList = 0DA393D42A0A546C00586FDC /* Build configuration list for PBXNativeTarget "LoginExample" */;
 			buildPhases = (
 				0DA393BC2A0A546A00586FDC /* Sources */,
 				0DA393BD2A0A546A00586FDC /* Frameworks */,
@@ -82,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = ScrollView;
+			name = LoginExample;
 			productName = ScrollView;
-			productReference = 0DA393C02A0A546A00586FDC /* ScrollView.app */;
+			productReference = 0DA393C02A0A546A00586FDC /* LoginExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DA393BB2A0A546A00586FDC /* Build configuration list for PBXProject "ScrollView" */;
+			buildConfigurationList = 0DA393BB2A0A546A00586FDC /* Build configuration list for PBXProject "LoginExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DA393BF2A0A546A00586FDC /* ScrollView */,
+				0DA393BF2A0A546A00586FDC /* LoginExample */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +149,6 @@
 			files = (
 				0DA393D02A0A546C00586FDC /* LaunchScreen.storyboard in Resources */,
 				0DA393CD2A0A546C00586FDC /* Assets.xcassets in Resources */,
-				0DA393CB2A0A546A00586FDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA393C82A0A546A00586FDC /* ViewController.swift in Sources */,
+				0DA393C82A0A546A00586FDC /* LoginViewController.swift in Sources */,
+				0DFEFA822A0E1FDE00B9A929 /* TabBarController.swift in Sources */,
 				0DA393C42A0A546A00586FDC /* AppDelegate.swift in Sources */,
+				0DFEFA882A0E674600B9A929 /* SecondSettingsViewController.swift in Sources */,
+				0DFEFA842A0E620B00B9A929 /* SettingsViewController.swift in Sources */,
 				0DA393C62A0A546A00586FDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0DA393C92A0A546A00586FDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DA393CA2A0A546A00586FDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DA393CE2A0A546C00586FDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +308,6 @@
 				INFOPLIST_FILE = ScrollView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +335,6 @@
 				INFOPLIST_FILE = ScrollView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DA393BB2A0A546A00586FDC /* Build configuration list for PBXProject "ScrollView" */ = {
+		0DA393BB2A0A546A00586FDC /* Build configuration list for PBXProject "LoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DA393D22A0A546C00586FDC /* Debug */,
@@ -348,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DA393D42A0A546C00586FDC /* Build configuration list for PBXNativeTarget "ScrollView" */ = {
+		0DA393D42A0A546C00586FDC /* Build configuration list for PBXNativeTarget "LoginExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DA393D52A0A546C00586FDC /* Debug */,
